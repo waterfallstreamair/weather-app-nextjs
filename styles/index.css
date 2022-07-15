@@ -1,0 +1,26 @@
+@import "./layout";
+@import "./navbar";
+@import "./footer";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+}
+
+body {
+  margin: 0;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+
